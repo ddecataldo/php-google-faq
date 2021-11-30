@@ -55,6 +55,10 @@ nav ul li a{
     color: #333;
     margin-bottom: 20px;
     display: block;
+    font-weight: bold;
+}
+nav ul li a.active{
+    color: #3367d6;
 }
 
 /* Main */
