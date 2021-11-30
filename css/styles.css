@@ -1,3 +1,10 @@
+/* Generale */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 /* Top Navbar */
 .top-navbar{
     display: flex;
@@ -38,11 +45,6 @@
 nav{
     border-bottom: 1px solid #ccc;
 }
-nav ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
 nav ul li{
     display: inline-block;
 }
@@ -51,4 +53,24 @@ nav ul li a{
     text-decoration: none;
     font-size: 18px;
     color: #333;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Main */
+main ul{
+    padding-left:30px;
+}
+main ul.list > li{
+    padding-bottom: 48px;
+}
+main .list{
+    list-style: none;
+    padding-left: 0;
+}
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 96px 15px;
 }
